@@ -1,4 +1,4 @@
-ciao mondo
+@extends('layout.base')
 {{-- @dump($movies) --}}
 @foreach ($movies as $movie)
     {{-- @dump($movie); --}}
