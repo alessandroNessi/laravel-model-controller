@@ -8,8 +8,12 @@
     <title>cippa</title>
 </head>
 <body>
+    @include('partials.header')
+    
+    <main>
+        @yield('content')
+    </main>
 
-    @yield('content')
-
+    @include('partials.footer')
 </body>
 </html>

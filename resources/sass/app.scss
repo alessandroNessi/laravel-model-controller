@@ -1,5 +1,15 @@
-//
-$orange:#ffaa11;
-*{
-    background-color: $orange;
+
+@import url(partials/var.scss);
+
+header{
+    background-color: $header-bgr;
+    color: $header-txt;
+}
+main{
+    background-color: $main-bgr;
+    color: $main-txt;
+}
+footer{
+    background-color: $footer-bgr;
+    color: $footer-txt;
 }
